@@ -2,11 +2,21 @@
 #include<string>
 using namespace std;
 
+class a
+{
+    public:
+    int b;
+    a* next;
+};
+
 int main()
 {
-    string str;
-    cin >> str ;
-    cout << str.length() << endl;
-    cout << str.size() << endl;
-    return 0;
+    a* a1 = new a;
+    a* c = new a;
+    a1->next = c;
+    delete c;
+    if(a1->next != nullptr)
+    {
+        cout <<"1";
+    }
 }
