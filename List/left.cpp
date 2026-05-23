@@ -45,7 +45,6 @@ public:
     }
 
 };
-
 int main()  
 {  
     int n, k;  
@@ -58,7 +57,7 @@ int main()
     return 0;  
 }  
 
-
+//test push
 /*
 实现数组的循环左移，要求：构造ver 类，用于存储长度为 n 的整型数组，其中，print() 函数，用于输出数组中的元素； LeftMove() 函数，用于实现数组的循环左移操作。
 
