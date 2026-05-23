@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class ver
+class ver 
 {
 private:
     int n;
